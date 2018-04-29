@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 17px;
+}
+
 /* header */
 
 header {
@@ -161,7 +166,7 @@ footer {
 }
 
 .mytimes {
-  font-family: Georgia;
+  font-family: Georgia, Times, Times New Roman, serif;
   font-size: 16px;
   font-weight: bold;
   color: white;
@@ -177,3 +182,8 @@ footer {
 .info nav {
     padding: 31px;
   }
+
+h2 {
+  font-size: 30px;
+  font-weight: Georgia;
+}
