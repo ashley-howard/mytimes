@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* delete after */
+div {
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  z-index: 1;
+  height: 80px;
+  background-color: white;
+  align-items: center;
+}
+
+.logo, nav {
+  display: flex;
+      align-items: center;
+}
+
+.logo {
+  color: MediumAquamarine;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span{
+  margin: auto 10px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  padding-left: 30px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav span a{
+    color: black;
+}
