@@ -8,6 +8,8 @@ div {
   border: 1px solid black;
 }
 
+/* header */
+
 header {
   display: flex;
   border-bottom: 1px solid black;
@@ -28,7 +30,6 @@ header {
 
 .logo {
   color: MediumAquamarine;
-  align-items: center;
   flex-grow: 1;
 }
 
@@ -51,6 +52,37 @@ nav span {
   padding: 20px 10px;
 }
 
-nav span a{
+nav span a {
     color: black;
+}
+
+/* main content */
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+h2 {
+  margin: 20px 0;
 }
